@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_omilian()
+{window.close()}
+var mebel_omilian = {
+firma: 'diablo',
+rodzaj_materialu: 'skóra_plastik_metal',
+rodzaj_mebla: 'fotel_gamingowy',
+pokaz: function ()
+{document.write(this.firma + ' ' + this.rodzaj_materialu+' ' +this.rodzaj_mebla)}}
+mebel_omilian.pokaz();
+mebel_omilian.regulacja="tak";
+mebel_omilian.wypisz=function() {alert('regulacja: ' + this.regulacja)}
+mebel_omilian.wypisz();
+</script>
+</head>
+<body>
+<br>
+//programowanie obiektowe//
+<input type="button" value="zamknij okno" onclick="okno_zamknij_omilian()"/>
+</body>
+</html>
