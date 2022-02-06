@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+<HTML>
+
+ <HEAD>
+ <meta charset="utf-8">
+ <TITLE>Rafał Omilian zad 24</TITLE>
+</HEAD>
+
+<BODY>
+<script type="text/javascript">
+function okno_zamknij_omilian()
+{window.close()}
+</script>
+1. Rodzaje „filozofii” programowania.<br>
+1)Programowanie strukturalne<br>
+2)Programowanie obiektowe<br>
+2. Opisz paradygmat programowania strukturalnego. Założenia programowania strukturalnego.<br>
+– paradygmat programowania opierający się na podziale kodu źródłowego programu na procedury i hierarchicznie ułożone bloki z wykorzystaniem struktur kontrolnych w postaci instrukcji wyboru i pętli.
+Programowanie strukturalne zwiększa czytelność i ułatwia analizę programów, co stanowi znaczącą poprawę w stosunku do trudnego w utrzymaniu „spaghetti code” często wynikającego z użycia instrukcji goto.<br>
+3. Programowanie obiektowe definicja(angielski skrót, obiekty, stan, zachowanie, końcowa konkluzja czym jest programowanie obiektowe).<br>
+1. Podzielone bloki kodu mają jeden punkt wejścia (mogą mieć wiele punktów wyjścia),<br>
+2. Wykonywanie wyrażeń w określonej kolejności,<br>
+3. Używanie instrukcji warunkowych (if, if else),<br>
+4. Używanie pętli (for, while, do while),<br>
+5. Unikanie instrukcji skoku (goto),<br>
+6. Unikanie instrukcji break, continua,<br>
+7. W programowaniu proceduralnym (strukturalne) funkcje i zmienne opisujące dany przedmiot nie są ze sobą powiązane.<br>
+4. Dlaczego stosujemy programowanie obiektowe?<br>
+Jest to bardziej naturalne podejście przez programistę podczas tworzenia programów ponieważ otaczający nas świat to różnego rodzaju przedmioty. Tworząc program komputerowy dokonujemy pewnego ich odwzorowania rzeczywistości np. definiujemy obiekt samochód. Definiujemy pola czyli jedo stan np. rok produkcji, marka, kolor. Definiujemy również metody czyli co umie np. hamowanie, przyśpieszanie. Definicja obiektu jego metod i pól znajduje się w klasie. Następnie na podstawie zdefiniowanego obiektu (może mieć pola oraz metody) powołujemy obiekt w pamięci wirtualnej
+5. Omów następujące pojęcia ( w krótkiej formie)<br> 
+<ul TYPE=disk>
+<li><b>Klasa - Klasa rodzaj foremki, która opisuje nam jak będą wyglądać tworzone na jej podstawie nowe obiekty. Klasa jest to złożony typ będący opisem (definicją) obiektu/obiektów wraz z definicją pól i metod obiektów.<br> </b></li>
+<li><b>Obiekt - Instancja (byt, twór) który powstał na podstawie klasy. Czyli Obiekty są konstrukcjami programistycznymi mającymi tak zwane właściwości (inaczej pola obiektu), którymi mogą być zmienne lub inne obiekty. Z obiektami powiązane są funkcje wykonujące operacje na ich właściwościach, nazywane metodami. <br></b></li>
+<li><b>Właściwość - Własność obiektu, np. kolor.<br> </b></li>
+<li><b>Metoda - Zdolność (czynność) którą umie wykonywać obiekt, np. chodzenie (idź). Realizowane w postaci konstrukcji podobnej do funkcji<br> </b></li>
+<li><b>Konstruktor - Metoda wywoływana w momencie inicjalizacji obiektu. np. tworzymy obiekt a wraz z tworzeniem obiektu uruchomi się metoda, która nada np. Imię i Nazwisko.<br></b> </li>
+<li><b>Dziedziczenie - Klasa może dziedziczyć własności od innej klasy. Tworzymy klasę na podstawie innej klasy pobierając od „rodzica” właściwości i metody, może dopisać nowe pola i nowe metody<br> </b></li>
+<li><b>Hermetyzacja - Wewnątrz ciała klasy znajdują się pola i metody. Część pól i metod można odpowiednio ukryć przed "zewnętrznym światem" klasy tak jak to ma miejsce z przedmiotami ze świata rzeczywistego.<br> </b></li>
+<li><b>Polimorfizm - Polimorfizm czyli wielopastaciowość. Oznacza to, że dany obiekt może zmieniać swoją postać w zależności od potrzeb. Może to być realizowane w formie metody wywoływanej z różną ilością parametrów. Tak więc utorzony obiekt może być traktowany polimorficznie bo zachowuje się różnie w zależności od sposobu uruchamiania jego metody.<br></b></li>
+ <br></ul>
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_omilan()"/>
+</BODY>
+</HTML>
